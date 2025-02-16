@@ -10,9 +10,10 @@ public class proyecto_final_1 {
  String vendedor;
  Scanner lectura=new Scanner(System.in);
  //Entrada de datos
- System.out.print("Nombre de vendedor;");
+ System.out.println("Hola Mundo:)!!!");
+ System.out.print("Nombre de vendedor:");
  vendedor=lectura.next();
- System.out.print("Sueldo Mensual;");
+ System.out.print("Sueldo Mensual:");
  sm=lectura.nextDouble();
  System.out.print("Venta 1:");
  vt1=lectura.nextInt();
@@ -24,7 +25,7 @@ public class proyecto_final_1 {
  c=(vt1+vt2+vt3)*0.10;
  pt=sm+c;
  //Salida de datos
- System.out.println("La comisión de la venta es :"+c);
+ System.out.println("La comision de la venta es :"+c);
  System.out.println("El sueldo mensual del vendedor es :"+pt);
  }//Fin del metodo
 }//Fin de la clase
